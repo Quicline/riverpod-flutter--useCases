@@ -20,6 +20,7 @@ class MainApp extends StatelessWidget {
   }
 }
 
+// Making this value available globally in the app
 final currentTime = Provider<DateTime>(
   (ref) => DateTime.now(),
 );
